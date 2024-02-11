@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* div welcome */
+.welcome {
+    background-image: url("image/ca037c6c-7681-491b-b550-4dd67b8444a8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+}  
+
+.welcome > h1 {
+    color: #ffd1da;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.welcome h1 span{
+    color: white;
+    font-size: 90px;
+}
+/* navigation bar */
+.navigation {
+    background-color: #ffd1da;
+    text-align: right;
+    position: sticky;
+    top: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 30px;
+    transition: 0.5s;
+
+}
+
+.icon:hover {
+    background-color: white;
+    color: #ffd1da;
+    border-radius: 10px;
+    animation-duration: 1s;
+}
+
+.name {
+    padding-left: 20px;
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.button-pink {
+    background-color: white;
+    color: #ffd1da;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+}
+
+.button-pink:hover {
+    box-shadow: 0px 10px 10px white;
+}
+
+/* div 2 */
+.container-box {
+    background-color: aliceblue;
+    height: auto;
+    padding-top: 70px;
+}
+
+.box {
+    display: inline-block;
+    background-color: #ffd1da;
+    width: 49.50%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.about-me {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.more-about {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* form */
+.box-contact {
+    display: inline-block;
+    background-color: #ffd1da;
+    width: 49.50%;
+    border-radius: 10px;
+    height: auto;
+    
+}
+.Contact-me {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.inputan {
+    width: 85%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+.inputan > label {
+    display: block;
+    font-size: 1.2em;
+}
+
+.inputan > input, .inputan > textarea {
+    width: 50%;
+    margin: .5em 0;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.button-send {
+    background-color: white;
+    left: 50%;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    /* display: flex; */
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    position: relative;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-send:hover {
+    box-shadow: 10px 10px 0px black;
+    transform: translate(-20px, -20px);
+}
+
+.block-contact-grid {
+    background-color: #ffd1da;
+}
